@@ -1,0 +1,16 @@
+{
+  "circle_ci_token": "",
+  "bitbucket_app_username": "",
+  "bitbucket_app_password": "",
+  "url": "https://circleci.com/api/v1.1/project/bitbucket/<user>/<repo>/tree",
+  "jobs": [
+    {
+     "name": "job-1",
+     "matches": ["file1", "dir1.*"]
+    },
+    {
+     "name": "job-2",
+     "matches": ["file2", "dir2.*"]
+    }
+ ]
+}
